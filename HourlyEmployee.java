@@ -1,4 +1,4 @@
-class HourlyEmployee extends Main {
+class HourlyEmployee extends Employee {
     private double wage;
     private double hoursWorked;
 
