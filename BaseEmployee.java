@@ -1,4 +1,4 @@
-class BaseEmployee extends Main {
+class BaseEmployee extends Employee {
     private double baseSalary;
 
     public BaseEmployee(String firstName, String lastName, String socialSecurityNumber, double baseSalary) {
