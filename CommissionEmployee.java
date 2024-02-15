@@ -1,4 +1,4 @@
-class CommissionEmployee extends Main {
+class CommissionEmployee extends Employee {
     private double commissionRate;
     private double grossSales;
 
