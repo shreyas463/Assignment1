@@ -6,12 +6,12 @@ class CargoShip extends Ship {
         this.cargoCapacity = cargoCapacity;
     }
 
-    public int getCargoCapacity() {
-        return cargoCapacity;
-    }
-
     public void setCargoCapacity(int cargoCapacity) {
         this.cargoCapacity = cargoCapacity;
+    }
+
+    public int getCargoCapacity() {
+        return cargoCapacity;
     }
 
     @Override
