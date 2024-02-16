@@ -12,12 +12,12 @@ class Course {
         this.textbooks = new ArrayList<>();
     }
 
-    public void addInstructor(Instructor instructor) {
-        instructors.add(instructor);
-    }
-
     public void addTextbook(Textbook textbook) {
         textbooks.add(textbook);
+    }
+
+    public void addInstructor(Instructor instructor) {
+        instructors.add(instructor);
     }
 
     public void printCourseInfo() {
