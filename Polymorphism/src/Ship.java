@@ -7,10 +7,6 @@ class Ship {
         this.yearBuilt = yearBuilt;
     }
 
-    public String getName() {
-        return name;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -21,6 +17,10 @@ class Ship {
 
     public void setYearBuilt(String yearBuilt) {
         this.yearBuilt = yearBuilt;
+    }
+
+    public String getName() {
+        return name;
     }
 
     public void print() {
