@@ -9,17 +9,17 @@ class Instructor {
         this.officeNumber = officeNumber;
     }
 
-    // Getters and setters
+    // Setting up getters and setters
     public String getFirstName() {
         return firstName;
+    }
+    
+    public String getLastName() {
+        return lastName;
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
     }
 
     public void setLastName(String lastName) {
