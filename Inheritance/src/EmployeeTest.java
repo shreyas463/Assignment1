@@ -8,7 +8,7 @@ public class EmployeeTest {
         CommissionEmployee commissionEmployee2 = new CommissionEmployee("Mahnaz", "Vaziri", "777-77-7777", 0.22, 40000);
         BaseEmployee baseEmployee = new BaseEmployee("Mike", "Davenport", "666-66-6666", 95000);
 
-        // Output the details of each employee
+        // Output the details of each employee - Salaried type
         System.out.println("------------------------------------------------------------------------------------------------------------");
         System.out.println("Salaried Employee 1: " + salariedEmployee1.getFirstName() + " " +
                 salariedEmployee1.getLastName() + ", SSN: " + salariedEmployee1.getSocialSecurityNumber() +
@@ -19,7 +19,7 @@ public class EmployeeTest {
                 ", Weekly Salary: $" + salariedEmployee2.getWeeklySalary());
 
         System.out.println("------------------------------------------------------------------------------------------------------------");
-
+        // Output the details of each employee - Hourly type
         System.out.println("Hourly Employee 1: " + hourlyEmployee1.getFirstName() + " " +
                 hourlyEmployee1.getLastName() + ", SSN: " + hourlyEmployee1.getSocialSecurityNumber() +
                 ", Wage: $" + hourlyEmployee1.getWage() + ", Hours Worked: " + hourlyEmployee1.getHoursWorked());
@@ -30,7 +30,7 @@ public class EmployeeTest {
 
         System.out.println("------------------------------------------------------------------------------------");
 
-
+        // Output the details of each employee - Commission type
         System.out.println("Commission Employee 1: " + commissionEmployee1.getFirstName() + " " +
                 commissionEmployee1.getLastName() + ", SSN: " + commissionEmployee1.getSocialSecurityNumber() +
                 ", Commission Rate: " + (commissionEmployee1.getCommissionRate() * 100) + "%, Gross Sales: $" +
@@ -42,7 +42,7 @@ public class EmployeeTest {
                 commissionEmployee2.getGrossSales());
 
         System.out.println("------------------------------------------------------------------------------------------------------------");
-
+        // Output the details of each employee - Base type
         System.out.println("Base Employee: " + baseEmployee.getFirstName() + " " +
                 baseEmployee.getLastName() + ", SSN: " + baseEmployee.getSocialSecurityNumber() +
                 ", Base Salary: $" + baseEmployee.getBaseSalary());
